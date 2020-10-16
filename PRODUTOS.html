@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos FSE</title>
+    <link rel="icon" href="./po/d logo.png">
+    <link rel="stylesheet" href="Css/EstiloFullStack.css">
+    <script src="Js/index.js"></script>
+</head>
+
+<body>
+
+
+
+    <!--Inicio do Menu-->
+
+
+    <nav class="menu">
+        <a href="FULL STACK eletro.html"> <img width="80px" src="./po/pngwing.com.png" width="100px">
+            <ul class="opcoes-menu">
+                <li> <a href="PRODUTOS.html">Produtos</a> </li>
+                <li> <a href="NOSSAS LOJAS.html">Lojas</a> </li>
+                <li> <a href="CONTATOS.html">Contatos</a> </li>
+            </ul>
+    </nav>
+
+
+    <!--Fim do menu-->
+
+
+    <header>
+        <h1 id="produtostitulo">Produtos</h1>
+    </header>
+
+
+
+
+
+    <!--Inicio das Categorias-->
+
+    <div id="fundocat"></div>
+
+    <div class="titulocategoria"><p>Categorias</p></div>
+
+
+
+    <div class="categorias">
+        <ul>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_todos()"> Todos (15)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('geladeira')"> Geladeira (2)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('fogao')">Fogão (2)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('microondas')">Micro-ondas (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('lava-roupa')">LavaRoupas (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('lava-loucas')">Lava-louças (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('console')">Consoles(2)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('ferro-de-passar')">Ferro de Passar (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('som')">HomeTheater(1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('fritadeira')">AirFryer (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('liquidificador')">Liquidificador (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('sanduicheira')">Sanduicheira (1)</li>
+            <li onmouseover="spotlight(this)" onmouseout="defocus(this)" onclick="exibir_categoria('mixer')">Mixer (1)</li>
+        </ul>
+    </div>
+
+
+    <!--Fim das Categorias-->
+
+
+
+    <!--Inicio da Tabela de Produtos-->
+
+    <div class="produtos" ;>
+        <div class="box_produto" id="geladeira" style="display:inline-block;">
+            <img src="./po/geladeira1.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Geladeira Brastemp Frost Free Side Inverse 540 litros</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 6.399,99</p>
+            <p class="preco">R$ 5.019,00</p>
+        </div>
+
+
+        <div class="box_produto" id="fogao" style="display:inline-block;">
+            <img src="./po/Fogao.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Fogão 5 Bocas Ative Branco Bivolt Brastemp</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 2.399,99</p>
+            <p class="preco">R$ 1.419,00</p>
+        </div>
+
+
+        <div class="box_produto" id="microondas" style="display:inline-block;">
+            <img src="./po/micro.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Micro-ondas Brastemp King Size 38 Litros inox 220v</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 599,99</p>
+            <p class="preco">R$ 419,00</p>
+        </div>
+
+
+        <div class="box_produto" id="lava-roupa" style="display:inline-block;">
+            <img src="./po/lava roupa.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Lava e Seca Samsung Siene 8,5Kg Branca</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 2.399,99</p>
+            <p class="preco">R$ 1.019,00</p>
+        </div>
+
+        <div class="box_produto" id="lava-loucas" style="display:inline-block;">
+            <img src="./po/louca.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Lava-Louças Inox 14 Serviços Electrolux</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 1.399,99</p>
+            <p class="preco">R$ 949,00</p>
+        </div>
+
+
+        <div class="box_produto" id="console" style="display:inline-block;">
+            <img src="./po/xbox-one.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Console Microsoft Xbox One 1TB </p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 1.399,99</p>
+            <p class="preco">R$ 1.019,00</p>
+
+        </div>
+
+
+        <div class="box_produto" id="ferro-de-passar" style="display:inline-block;">
+            <img src="./po/ferro.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Ferro de Passar Roupas À Vapor </p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 65,99</p>
+            <p class="preco">R$ 49,00</p>
+        </div>
+
+
+        <div class="box_produto" id="som" style="display:inline-block;">
+            <img src="./po/home.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+
+            <p class="descricao">Home Theater Philco Philco</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 1.099,99</p>
+            <p class="preco">R$ 699,00</p>
+        </div>
+
+
+        <div class="box_produto" id="fritadeira" style="display:inline-block;">
+            <img src="./po/air.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Fritadeira sem Óleo Air Fryer</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 399,99</p>
+            <p class="preco">R$ 341,05</p>
+        </div>
+
+
+        <div class="box_produto" id="liquidificador" style="display:inline-block;">
+            <img src="./po/loqui.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Liquidificador Philco 3 litros</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 317,99</p>
+            <p class="preco">R$ 206,07</p>
+        </div>
+
+
+        <div class="box_produto" id="sanduicheira" style="display:inline-block;">
+            <img src="./po/pao.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Daily Collection Sandwich Philips HD2395/00</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 89,99</p>
+            <p class="preco">R$ 59,00</p>
+        </div>
+
+
+        <div class="box_produto" id="mixer" style="display:inline-block;">
+            <img src="./po/mixer.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Mixer Pmx Maxx 500W de Potência Philco 127V </p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 180,99</p>
+            <p class="preco">R$ 120,00</p>
+        </div>
+
+        <div class="box_produto" id="geladeira" style="display:inline-block;">
+            <img src="./po/gel preta.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Geladeira Brastemp Frost Free Inverse 2 Portas</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 180,99</p>
+            <p class="preco">R$ 120,00</p>
+        </div>
+
+
+
+        <div class="box_produto" id="console" style="display:inline-block;">
+            <img src="./po/ps4.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">Console Playstation 4 Pro 1 TB Sony 4K</p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 180,99</p>
+            <p class="preco">R$ 120,00</p>
+        </div>
+
+
+
+        <div class="box_produto" id="fogao" style="display:inline-block;">
+            <img src="./po/fg.jpg" width="70px" onclick="destaque(this)" onmouseout="defocus1(this)">
+            <p class="descricao">5 Bocas preto com mesa de vidro e turbo chama </p>
+            <hr id="barrinha">
+            <p class="oldpreco">R$ 180,99</p>
+            <p class="preco">R$ 120,00</p>
+        </div>
+
+    </div>
+
+
+    <!--Fim da Tabela de Produtos-->
+
+
+
+
+
+    <footer id="rodape">
+        <p id="formas_pagamento"><b>Formas de Pagamento</b></p>
+        <img src="./po/pagamento.png" width="17%">
+        <p>&copy; Recode Pro</p>
+    </footer>
+
+
+
+</body>
+
+</html>

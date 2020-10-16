@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: purple;
+  height: 80px;
+}
+
+.menu a {
+  border: red;
+  margin-left: 80px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.opcoes-menu {
+  float: right;
+  list-style: none;
+  display: flex;
+  margin: 30px;
+}
+
+#tituloinicial {
+  color: pink;
+  text-align: center;
+  font-size: 30px;
+}
+
+#subtituloinicial {
+  color: pink;
+  text-align: center;
+  font-size: 60px;
+}
+
+.maps {
+  margin-left: 170px;
+}
+
+.tabelalugar {
+  margin-left: 160px;
+}
+
+.contatos {
+  display: inline-block;
+}
+
+h1 {
+  color: purple;
+  font-size: +17;
+  text-align: center;
+}
+
+h2 {
+  color: pink;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  color: hotpink;
+}
+
+#fundocat{
+  background-color:rgba(215, 154, 255, 0.075);
+  width:400px;
+  height:1000px;
+  margin-left: 0px;
+  margin-top:-64px;  
+  border: 1px solid;
+  border-color: rgba(182, 11, 250, 0.027);
+ 
+ }
+
+.titulocategoria {
+  color: white;
+  text-align: center;
+  background-color:rgb(151, 12, 151);
+  font-size:25px;
+  width: 259px;
+  margin-left: 70px;
+  margin-top: -950px;
+  cursor: default;
+    
+    
+}
+.categorias {
+  margin-top: -33px;
+  margin-left: 30px;
+  width: 200px;
+  height: 550px;
+  float: left;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.categorias ul li {
+  background-color: rgb(255, 255, 255);
+  padding: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+  width: 250px;
+  height: 25px;  
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+li:hover {
+  color:rgb(223, 44, 255);
+}
+
+#cat {
+  margin-left: 40px;
+  font-size: 30px;
+  color: rgb(161, 21, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 260px;
+  
+}
+
+#produtostitulo {
+  color: purple;
+  text-align: center;
+  height: 20px;
+  cursor: default;
+}
+
+.produtos {
+  width: 1460px;
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.box_produto {
+  width: 260px;
+  text-align: center;
+  
+}
+
+.box_produto img {
+  cursor: zoom-in;
+}
+
+
+.descricao {
+  padding-bottom: 10px;
+  cursor: default;
+}
+
+
+#barrinha {
+  width: 220px;
+  cursor: context-menu;
+}
+
+.oldpreco {
+  font-size: 13px;
+  height: 5px;
+  text-decoration: line-through;
+  cursor: context-menu;
+}
+
+.preco {
+  color: rgb(219, 41, 35);
+  background-color:rgba(179, 179, 179, 0.151);
+  font-weight: bold;
+  font-size: 18px;
+  width:150px;
+  margin-left:55px;
+  border:0;
+  border-radius:15px;
+  cursor: context-menu;
+}
+
+#formas_pagamento {
+  color: purple;
+  text-align: center;
+  font-size: 110%;
+}
+
+#rodape {
+  text-align: center;
+  align-items: center;
+}
