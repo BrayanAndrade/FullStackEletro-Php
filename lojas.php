@@ -16,11 +16,11 @@
 
 
     <nav class="menu">
-        <a href="FULL STACK eletro.html"> <img width="80px" src="./po/pngwing.com.png" width="100px">
+        <a href="index.php"> <img width="80px" src="./po/pngwing.com.png" width="100px">
         <ul class="opcoes-menu">
-            <li> <a href="PRODUTOS.html">Produtos</a> </li>
-            <li> <a href="NOSSAS LOJAS.html">Lojas</a> </li>
-            <li> <a href="CONTATOS.html">Contatos</a> </li>
+            <li> <a href="produtos.php">Produtos</a> </li>
+            <li> <a href="lojas.php">Lojas</a> </li>
+            <li> <a href="contatos.php">Contatos</a> </li>
         </ul>
     </nav>
     <br>
