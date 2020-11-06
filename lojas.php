@@ -5,88 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lojas FSE</title>
-    <link rel="stylesheet" href="Css/EstiloFullStack.css" 
+    <link rel="stylesheet" href="Css/style.css">
+
 </head>
 
+
 <body>
-
-
-
     <!--Inicio do Menu-->
 
 
-    <nav class="menu">
-        <a href="index.php"> <img width="80px" src="./po/pngwing.com.png" width="100px">
-        <ul class="opcoes-menu">
-            <li> <a href="produtos.php">Produtos</a> </li>
-            <li> <a href="lojas.php">Lojas</a> </li>
-            <li> <a href="contatos.php">Contatos</a> </li>
-        </ul>
-    </nav>
-    <br>
-    <br>
-
+    <?php
+    include('menu.html');
+    ?>
 
 
     <!--Fim do menu-->
 
 
-    <main>
-        
-        <h1 align="center">
-            Nossas Lojas</font>
-        </h1>
-        
+    <div class="container-fluid">
+
+        <h3 class="display-4 text-center mt-5">Nossas Lojas</h3>
+
         <br>
 
 
-        <div class="maps">
-        <img src="po/google-maps-marker.png" width="500px" alt="">
-        <img src="po/google-maps-marker.png" width="500px" alt="">
-        <img src="po/google-maps-marker.png" width="500px"alt="">
-        </div>  
-
-
-        <table class="tabelalugar" border="0" width="80%" cellpadding="10">
-            <tr>
-                <td width=5%>
-                    <h3>Rio de Janeiro</h3>
-                    <p>Avenida Presidente Vargas, 5000</p>
-                    <p>10 &ordm; andar</p>
-                    <p>Centro</p>
-                    <p>(21)9999-9999</p>
-                </td>
-                <td width=5%>
-                    <h3>São Paulo</font></h3>
-                    <p>Avenida Paulista, 985</font></p>
-                    <p>3 &ordm; andar</font></p>
-                    <p>Jardins</font></p>
-                    <p>(21)9999-9999</font></p>
-                </td>
-                <td width=5%>
-                    <h3>Santa Catarina</font></h3>
-                    <p>Rua Major &Aacute;vila, 370</font></p>
-                    <p>Vila Mariana</font></p>
-                    <p>(21)9999-9999</font></p>
-                </td>
-            </tr>
-        </table>
-        
-
-    </main>
+        <div class="container">
+            <img src="po/google-maps-marker.png" width="32%" alt="">
+            <img src="po/google-maps-marker.png" width="32%" alt="">
+            <img src="po/google-maps-marker.png" width="32%" alt="">
+        </div>
 
 
 
- <br> <br> <br> <br>
+        <div class="container">
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
 
+                        <th scope="col">Rio de Janeiro</th>
+                        <th scope="col">Sao Paulo</th>
+                        <th scope="col">Santa Catarina</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
 
+                        <td>Avenida Presidente Vargas, 5000</td>
+                        <td>Avenida Paulista, 985</td>
+                        <td>Rua Major &Aacute;vila, 370</td>
+                    </tr>
+                    <tr>
 
-    <footer id="rodape">
-        <p id="formas_pagamento"><b>Formas de Pagamento</b></p>
-        <center><img src="./po/pagamento.png" width="17%"></center>
-        <p>&copy; Recode Pro</p>
-    </footer>
+                        <td>10 &ordm; andar</td>
+                        <td>3 &ordm; andar</td>
+                        <td>Vila Marianat</td>
+                    </tr>
+                    <tr>
 
-</body>
+                        <td>(21)9999-9999</td>
+                        <td>(21)9999-9999</td>
+                        <td>(21)9999-9999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
+    <div class="container-fluid mt-5">
+        <h2 class="display-5 text-center text-info">Formas de pagamento</h2>
+        <center>
+            <img src="./po/pagamento.png" width="350px">
+            <p>&copy; Recode Pro</p>
+        </center>
+    </div>
+    
+    </body>
 </html>
